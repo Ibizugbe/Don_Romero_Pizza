@@ -1,8 +1,8 @@
-import drink1 from "./assets/drinks/drink1.png";
-import drink2 from "./assets/drinks/drink2.png";
-import drink3 from "./assets/drinks/drink3.png";
-import drink4 from "./assets/drinks/drink4.png";
-import drink5 from "./assets/drinks/drink5.png";
+import drink1 from "../assets/drinks/drink1.png";
+import drink2 from "../assets/drinks/drink2.png";
+import drink3 from "../assets/drinks/drink3.png";
+import drink4 from "../assets/drinks/drink4.png";
+import drink5 from "../assets/drinks/drink5.png";
 
 
 export const drinks = [

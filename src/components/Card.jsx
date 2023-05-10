@@ -1,16 +1,27 @@
 import "./card.css"
-import { drinks, pizza, pastres, snacks } from "../data/data";
+import { drinks } from "../data/data";
 
 function ItemCard() {
-    const drinks = drinks;
-    const pizza = pizza;
-    const pastres = pastres;
-    const snacks = snacks;
+    const drink = drinks;
+
     return ( 
-        <div className="card">
-            <div className="card-image"></div>
-            <div className="card-text"></div>
-        </div>
+        <section className="card">
+            <h1>food</h1>
+            {
+                drink.map((item) => {
+                    return(
+                        <div key={item.id} className="card">
+                            <div className="card-image">
+                                <img src={item.image} alt={item.name} />
+                            </div>
+                            <div className="card-text">
+                                <p>{item.name}</p>
+                            </div>
+                        </div>
+                    )
+                })
+            }
+        </section>          
      );
 }
 
