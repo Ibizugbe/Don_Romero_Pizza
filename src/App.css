@@ -8,6 +8,12 @@
   padding: 0;
 }
 
-.icon-favorite {
-  color: red;
+.nav-div {
+  border-bottom: 1px solid #eaeaea;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-div {
+    display: none;
+  }
 }
