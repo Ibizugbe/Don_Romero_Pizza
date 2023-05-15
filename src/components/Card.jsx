@@ -8,7 +8,6 @@ function ItemCard() {
 
     return ( 
         <section>
-            <h1>food</h1>
             <Aside />
             <div class="p-4 sm:ml-20">
                 <div class="p-4 grid grid-cols-2 md:grid-cols-3 gap-4">
@@ -21,6 +20,7 @@ function ItemCard() {
                                     </div>
                                     <div className="px-6 py-4">
                                         <p>{item.name}</p>
+                                        <span>{item.price}</span>
                                     </div>
                                 </div>
                             )
